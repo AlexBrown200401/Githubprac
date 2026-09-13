@@ -1,0 +1,55 @@
+  459  cd Githubprac/
+  460  echo "Clone was made into a project dir.. now theres some work to be done" >> README.md
+  461  cat README.md
+  462  git commit -am "starting work"
+  463  git log
+  464  git push origin main
+  465  touch 1 2 3 
+  466  echo asdfasdff >> 1
+  467  echo aaaaaa >> 2
+  468  git add 1 2
+  469  git commit -m " file 1 and 2 were added and edited"
+  470  git push origin main
+  471  git checkout -b New
+  472  echo "Now this file will become executable sh file" >> 3
+  473  echo "touch 4" >> 3
+  474  echo "mv 3 3.sh"
+  475  echo "mv 3 3.sh" >> 3
+  476  echo "chmod u+x 3" >> 3
+  477  git add 3
+  478  git add .
+  479  git commit -m " 3 was edited. a shabang was added. now will run in bash"
+  480  bash 3
+  481  .3
+  482  ./3
+  483  chmod u+x 3.sh
+  484  bash 3.sh
+  485  rm 3.sh
+  486  git log
+  487  touch 3
+  488  touch 4
+  489  mv 4 4.sh
+  490  chmod u+x 4.sh
+  491  echo $?" >> 3
+  492  touch 4
+  493  mv 4 4.sh
+  494  chmod u+x 4.sh
+  495  echo $?" >> 3
+  496  echo " This will be added manually"
+  497  nano 3
+  498  mv 3 3.sh
+  499  chmod u+x 3.sh
+  500  git add .
+  501  git commit -m " file 3.sh was modified. now running and will create another executable file presenting the exit code"
+  502  \git log
+  503  git status
+  504  bash 3.sh
+  505  echo "finally haha"
+  506  nano 4.sh
+  507  bash 4.sh
+  508  echo "cat 2" >> 4.sh
+  509  bash 4.sh
+  510  git commit -am "practice successful"
+  511  git add . ; git commit -m "Practice successful"
+  512  echo $?
+  513  history
